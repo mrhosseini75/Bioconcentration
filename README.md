@@ -1,6 +1,6 @@
 # Bioconcentration
 
-__Introduction__
+#__Introduction__
 The aim of the project is to assess how chemicals are distributed within the body, in particular whether or not they are mainly concentrated within lipid tissues, whether there are additional storage sites, such as protein sites, or whether the substance is metabolised or eliminated.
 To do this, it is necessary to know the bioconcentration of each available substance, which reflects the increase in chemical agents through the skin and respiratory surfaces.
 To quantify this phenomenon, many regulatory frameworks use the Bioconcentration Factor (BCF), which is a proportionality constant derived from comparing the concentration of the substance in a given organism with that found in water at steady state.
@@ -12,7 +12,7 @@ The intention is to proceed, initially by making a visualization of the availabl
 Subsequently, the following classifiers are implemented: MLN, SVM (both linear and non-linear), Bayesian Naive, NN.
 The aim is to create different algorithms which, having input data on chemical substances, make a decision regarding the belonging of each of the three classes, and then evaluate which of these algorithms is the most effective in processing the available data.
 
-__Dataset__
+#__Dataset__
 The dataset is a table, where each row corresponds to one of the 779 chemicals used to determine the bioconcentration mechanisms.
 The first two columns represent substance identifiers, i.e. the CAS number, and their SMILES representation.
 Of the substances analysed, as can be seen in the third column, only 25% are included in the test set, while the remaining 75% are included in the training set.
